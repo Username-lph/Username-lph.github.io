@@ -70,7 +70,10 @@
 	border-top: 5px solid #10A7AF;
 }
 
+
 /*webpage-head End*/
+
+
 /*webpage-banner*/
 
 .banner {
@@ -123,7 +126,9 @@
 	color: #10A7AF;
 }
 
+
 /*webpage-banner End*/
+
 
 /*about*/
 
@@ -145,17 +150,21 @@
 	color: #10A7AF;
 }
 
+h3.tittle:before {}
+
 h3.tittle:before {
+	width: 87px;
 	content: "";
-	width: 120px;
 	display: inline-block;
 	margin: 9px 10px;
 	border: 4px double #c2c2c2;
 }
 
+h3.title:after {}
+
 h3.tittle:after {
+	width: 87px;
 	content: "";
-	width: 120px;
 	display: inline-block;
 	margin: 9px 10px;
 	border: 4px double #c2c2c2;
@@ -183,6 +192,7 @@ h3.tittle:after {
 	font-weight: 400;
 	color: #777;
 }
+
 
 /*.abt-left span{
 	display:inline-block;
