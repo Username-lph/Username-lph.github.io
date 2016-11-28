@@ -35,9 +35,68 @@
 }
 
 .head-w .menu {
+	display: block;
 	float: right;
 	padding: 15px 20px;
 }
+
+
+/*移动端的导航*/
+
+.menu-inner {
+	width: 100%;
+	height: 499px;
+	background: rgba(0, 0, 0, .39);
+	position: absolute;
+	top: 92px;
+	left: 0px;
+	z-index: 1111;
+	transition:transform 0.8s ease-in-out 0s;
+	transform:scale(0,0) rotate(0deg) translate3d(0,-1000px,-1000px);
+}
+.menu-inner.active{
+	background: rgba(0, 0, 0, .39);
+	transform:scale(1,1) rotate(360deg) translate3d(0,0,0);
+}
+.menu-top-nav {
+	width: 100%;
+	height: 469px;
+	padding: 15px;
+	margin: 15px auto;
+}
+
+.menu-top-nav li {
+	width: 100%;
+	box-sizing: border-box;
+	line-height: 20px;
+	/*padding-top: 15px;
+	padding-bottom: 15px;*/
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.menu-top-nav li a {
+	display: block;
+	color: #dfdfdf;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left:5px;
+}
+
+.menu-top-nav li a:hover {
+	background: #DFF0D8;
+	color: #C81623;
+}
+
+.menu-top-nav li a.active {
+	background: #DFF0D8;
+	color: #c81623;
+}
+
+
+/*移动端的导航*/
+
+
+/*1366下的导航*/
 
 .top-nav {
 	float: right;

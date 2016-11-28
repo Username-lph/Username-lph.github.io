@@ -1,4 +1,4 @@
-$(document).ready(function(){
+//$(document).ready(function(){
 		
 			/*var defaults = {
 			containerID: 'toTop', // fading element id
@@ -7,8 +7,9 @@ $(document).ready(function(){
 			easingType: 'linear' 
 			};*/
 										
-	$().UItoTop({ easingType: 'easeOutQuart' });
-});
+//	$().UItoTop({ easingType: 'easeOutQuart' });
+//});
+
 //(function() {
 //  "use strict";
 //
